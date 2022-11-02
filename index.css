@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0em;
+    background-color: black;
+}
+
+header{
+    background-color: rgb(245,245,245);
+}
+
+header.fotologo{
+    position:static;
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+    position: relative;
+    left:30px;
+}
+
+header.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    text-align-last: justify;  
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin: 0em;
+    top: 30px;
+    left:0px;
+}
+
+header a:hover{
+    color: rgb(69, 61, 77);
+}
+#contenidoItemsCarrusel{
+    height: 90vh;
+    overflow: hidden;
+}
+
+.itemCarrusel{ 
+    height: 100%;
+    position: relative;
+}
+
+.tarjetaCarrusel{
+    height: 100%;
+}
+
+.flechasCarrusel{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#tarjetaCarrusel-1{
+    background-color: blueviolet;
+}
+
+#tarjetaCarrusel-2{
+    background-color: rgb(43, 61, 226);
+}
+
+#tarjetaCarrusel-3{
+    background-color: rgb(43, 214, 226);
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    color: white;
+}
+
+#contenedorPuntos{
+    display: flex;
+    justify-content: space-around
+}
+#contenedorPuntos > a{
+    font-size: 1.5em;
+    font-style: none;
+    color: rgb(165, 150, 150);
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0,0,0,5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0,5);
+    color: white;
+    background-color: rgba(137, 43, 226, 0.226);
+    position: absolute;
+    top: 900px;
+    left: 70%;
+    
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
